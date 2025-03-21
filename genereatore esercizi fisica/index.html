@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizi di Fisica</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Esercizi di Fisica</h1>
+    </header>
+
+    <nav>
+        <a href="#cinematica">Cinematica</a>
+        <a href="#dinamica">Dinamica</a>
+    </nav>
+
+    <div class="container">
+        <section id="cinematica">
+            <h2>Problema di cinematica</h2>
+            <p>Ecco un problema di cinematica:</p>
+            <p id="problema"></p>
+            <button onclick="generaProblema()">Genera Problema</button>
+        </section>
+    </div>
+
+    <div class="container">
+        <section id="cronometro">
+            <h2>Cronometro</h2>
+            <p id="timer">00:00:00</p>
+            <button onclick="startCronometro()">Avvia</button>
+            <button onclick="stopCronometro()">Ferma</button>
+            <button onclick="resetCronometro()">Reset</button>
+        </section>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
